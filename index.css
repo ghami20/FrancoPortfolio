@@ -1,7 +1,31 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
-
+.work__slider {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+  }
+  
+  /* Ajusta el tamaño de los slides según sea necesario */
+  .work__image {
+    width: 80%;
+    height: 60%;
+  }
+  
+  /* Muestra solo el slide activo */
+  .slide:not(:first-child) {
+    display: none;
+  }
+  
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
