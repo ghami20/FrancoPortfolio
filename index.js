@@ -14,7 +14,7 @@
    showSlide(currentSlide + 1);
  }
  
- setInterval(nextSlide, 5000); // Cambia el slide cada 5 segundos
+ setInterval(nextSlide, 3000); // Cambia el slide cada 5 segundos
  
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
